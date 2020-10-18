@@ -135,22 +135,38 @@ Ejercicios
 	* ¿Es capaz de sacar alguna conclusión a partir de la evolución de la tasa de cruces por cero?
 
 
+
 ### Desarrollo del detector de actividad vocal
 
 - Complete el código de los ficheros de la práctica para implementar un detector de actividad vocal tan
   exacto como sea posible. Tome como objetivo la maximización de la puntuación-F `TOTAL`.
+  
+ 	<img src="img/5d.png" width="640" align="center"> Imagen del codigo completado.
 
 - Inserte una gráfica en la que se vea con claridad la señal temporal, el etiquetado manual y la detección
   automática conseguida para el fichero grabado al efecto. 
 
-
+	<img src="img/3a.png" width="640" align="center"> 
+	
+	Insertar gráfica del etiquetado manual
+	
+	<img src="img/5b.png" width="640" align="center">
+		
 - Explique, si existen. las discrepancias entre el etiquetado manual y la detección automática.
 
+		Si ya que en el etiquetado manual, se puede ser más preciso. 
+		En la detección automatica, si hay mucho ruido ambiente puede detectarlo como voz. 
+		
 - Evalúe los resultados sobre la base de datos `db.v4` con el script `vad_evaluation.pl` e inserte a 
   continuación las tasas de sensibilidad (*recall*) y precisión para el conjunto de la base de datos (sólo
   el resumen).
 
-
+	<img src="img/5a.png" width="640" align="center">
+		
+	<img src="img/5c.png" width="640" align="center">
+		
+	<img src="img/5e.png" width="640" align="center">
+		
 ### Trabajos de ampliación
 
 #### Cancelación del ruido en los segmentos de silencio
